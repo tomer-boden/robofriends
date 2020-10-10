@@ -56,7 +56,7 @@ const filterRobots = robots.filter(robot => {
 			<h1 className="tc">loading</h1> :
 		(
 		<div className="tc">
-		<h1>pokedex</h1>
+		<h1>pokedex!</h1>
 		<SearchBox searchChange ={onSearchChange} place = "search pokemon"/>
 		<div className="box">
 		<h3>show:</h3>
