@@ -22,7 +22,12 @@ if (pokemons.types[1])
 else{
 	{await setType2("")}
 }
-await setInd(pokemons.id)
+if (pokemons.id < 894)
+{await setInd(pokemons.id)}
+else
+{
+	await setInd('special')
+}
 }
 /*const [weight, setWeight] =useState([])*/
 useEffect(() => {
